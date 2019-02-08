@@ -1,0 +1,48 @@
+public class Vect_calc
+    {
+        public double fx = 0, fy = 0;
+        
+        public Vect_calc(double magnitud_1,double angulo_1, double magnitud_2, double angulo_2)//para 2 vectores
+        {
+            
+            fx = magnitud_1 * Math.Cos(Math.PI * angulo_1/180) + (magnitud_2 * Math.Cos(Math.PI * angulo_2 /180));
+            fy = magnitud_1 * Math.Sin(Math.PI * angulo_1 /180) + magnitud_2 * Math.Sin(Math.PI * angulo_2 /180);
+        }
+        public Vect_calc(double[] magn,double[] angl)//x numero de elementos
+        {
+            int x = magn.Count();
+            int y = angl.Count();
+            if (x!=y) { return; }//ang y magn deben tener el mismo numero de elementos
+            for (int i = 0; i < x; i++)
+            {
+                fx =+ magn[i] * Math.Cos(Math.PI * angl[i] / 180);
+                fy =+ magn[i] * Math.Sin(Math.PI * angl[i] / 180);
+            }
+
+        }
+        public double Res()//regresa un double de la magnitud resultante
+        {
+            return Math.Sqrt(fx*fx+fy*fy);
+        }
+        public double Theta()//regresa el double del angulo final
+        {
+            if (fx > 0 && fy > 0)//1er cuadrante
+            {
+                return ((Math.Atan(fy / fx)) * 180/ Math.PI );
+            }
+            if (fx < 0 && fy > 0)//2do cuadrante
+            {
+                return (180-(Math.Atan(fy / fx)) * 180 / Math.PI);
+            }
+            if (fx < 0 && fy < 0)//3er cuadrante
+            {
+                return (180+(Math.Atan(fy / fx)) * 180 / Math.PI);
+            }
+            if (fx > 0 && fy < 0)//4to cuadrante
+            {
+                return (360-(Math.Atan(fy / fx)) * 180 / Math.PI);
+            }
+            return 0;
+        }
+
+    }

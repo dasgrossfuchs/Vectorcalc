@@ -537,13 +537,7 @@ namespace WindowsFormsApp1
             
             //
             //Resultante
-            double Res = Math.Sqrt(fx * fx + fy * fy);
-            char[] temp = (Res.ToString()).ToCharArray();
-            int x = Array.IndexOf(temp,'.');
-            Array.Resize(ref temp, (x + 3));
-            string y = new string(temp);
-            
-            
+            double Res = Math.Round(Math.Sqrt(fx * fx + fy * fy),3);
             label13.Text = Res.ToString();
             //
             //Angulo
@@ -570,17 +564,13 @@ namespace WindowsFormsApp1
                 theta = (360 - (Math.Atan(fy / fx)) * 180 / Math.PI);
             }
 
-            temp = (theta.ToString()).ToCharArray();
-            
-            string z = new string(temp);
-            label14.Text = z;
+            theta = Math.Round(theta,2);
+            label14.Text = theta.ToString();
             //
             label17.Show();
             
-            double dirx = fx/(Math.Abs(fx));
-            double diry = fy/(Math.Abs(fy));
-            int coorx = 600 + Convert.ToInt32(90*dirx*Math.Cos(theta*Math.PI/180));
-            int coory = 120 - Convert.ToInt32(90*diry* Math.Sin(theta * Math.PI / 180));
+            int coorx = 600 + Convert.ToInt32(90*Math.Cos(theta*Math.PI/180));
+            int coory = 120 - Convert.ToInt32(90* Math.Sin(theta * Math.PI / 180));
             
             label17.SetBounds(coorx+10, coory-10,1,1);
             

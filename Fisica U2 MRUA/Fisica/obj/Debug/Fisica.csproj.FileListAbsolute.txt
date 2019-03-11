@@ -1,0 +1,10 @@
+C:\Users\Deos\source\repos\Fisica\Fisica\bin\Debug\Fisica.exe.config
+C:\Users\Deos\source\repos\Fisica\Fisica\bin\Debug\Fisica.exe
+C:\Users\Deos\source\repos\Fisica\Fisica\bin\Debug\Fisica.pdb
+C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.csprojAssemblyReference.cache
+C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.Form1.resources
+C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.Properties.Resources.resources
+C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.csproj.GenerateResource.cache
+C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.csproj.CoreCompileInputs.cache
+C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.exe
+C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.pdb

@@ -304,7 +304,7 @@ namespace WindowsFormsApp1
             
 
             double k = 9*Math.Pow(10, 9);
-            double prefix = Math.Pow(10,-9);
+            double prefix = Math.Pow(10,to);
             if (true == true)
             {
                 if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox11.Text))

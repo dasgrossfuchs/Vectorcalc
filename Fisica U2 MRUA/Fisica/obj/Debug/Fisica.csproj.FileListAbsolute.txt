@@ -8,3 +8,13 @@ C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.csproj.GenerateResourc
 C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.csproj.CoreCompileInputs.cache
 C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.exe
 C:\Users\Deos\source\repos\Fisica\Fisica\obj\Debug\Fisica.pdb
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\bin\Debug\Fisica.exe.config
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\bin\Debug\Fisica.exe
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\bin\Debug\Fisica.pdb
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\obj\Debug\Fisica.csprojAssemblyReference.cache
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\obj\Debug\Fisica.Form1.resources
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\obj\Debug\Fisica.Properties.Resources.resources
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\obj\Debug\Fisica.csproj.GenerateResource.cache
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\obj\Debug\Fisica.csproj.CoreCompileInputs.cache
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\obj\Debug\Fisica.exe
+C:\Users\agust\Documents\GitHub\Vectorcalc\Fisica U2 MRUA\Fisica\obj\Debug\Fisica.pdb

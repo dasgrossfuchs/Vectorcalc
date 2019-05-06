@@ -70,8 +70,8 @@ namespace CorrienteK
             {
                 dif = 1;
             }
-            i1.Text=Math.Round(dif1 / dif,5).ToString();
-            i2.Text = Math.Round(dif2 / dif, 5).ToString();
+            i1.Text=Math.Round(dif1 / dif,5).ToString()+"A";
+            i2.Text = Math.Round(dif2 / dif, 5).ToString()+"A";
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

@@ -230,7 +230,7 @@
             // 
             // r5
             // 
-            this.r5.Location = new System.Drawing.Point(35, 160);
+            this.r5.Location = new System.Drawing.Point(36, 164);
             this.r5.Name = "r5";
             this.r5.Size = new System.Drawing.Size(38, 20);
             this.r5.TabIndex = 7;
@@ -304,7 +304,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(120, 140);
+            this.label18.Location = new System.Drawing.Point(119, 136);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(21, 13);
             this.label18.TabIndex = 30;
@@ -312,7 +312,7 @@
             // 
             // r9
             // 
-            this.r9.Location = new System.Drawing.Point(146, 137);
+            this.r9.Location = new System.Drawing.Point(147, 133);
             this.r9.Name = "r9";
             this.r9.Size = new System.Drawing.Size(38, 20);
             this.r9.TabIndex = 12;
@@ -336,7 +336,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 163);
+            this.label3.Location = new System.Drawing.Point(11, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(21, 13);
             this.label3.TabIndex = 44;
@@ -362,7 +362,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 450);
+            this.ClientSize = new System.Drawing.Size(562, 467);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);

@@ -231,7 +231,10 @@
             this.Controls.Add(this.tb3);
             this.Controls.Add(this.tb2);
             this.Controls.Add(this.tb1);
+            this.MaximumSize = new System.Drawing.Size(441, 299);
+            this.MinimumSize = new System.Drawing.Size(441, 299);
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Calculadora Campo Magnetico";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
